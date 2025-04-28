@@ -1,0 +1,52 @@
+.post-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin: 20px;
+    max-width: 350px;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .post-price {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #27ae60;
+    margin-bottom: 8px;
+  }
+  
+  .post-category {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3498db;
+    margin-bottom: 8px;
+  }
+  
+  .post-description {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  
